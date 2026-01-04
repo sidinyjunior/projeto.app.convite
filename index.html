@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Bíblico Familiar 2026/2027</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #F29325;
+            --bg: #000000;
+            --card: #1a1a1a;
+            --text: #ffffff;
+            --warning: #c0392b;
+            --bg-alerta: #ffebeb; /* Vermelho um pouco mais visível e suave */
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+            background: linear-gradient(180deg, rgba(242, 147, 37, 0.2) 0%, rgba(0,0,0,1) 100%);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .hero img {
+            width: 120px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(242, 147, 37, 0.3);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin: 0;
+            color: var(--primary);
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            padding-bottom: 60px;
+        }
+
+        .main-card {
+            background: var(--card);
+            border-radius: 20px;
+            padding: 25px;
+            border: 1px solid #333;
+            margin-top: 20px;
+            line-height: 1.6;
+            text-align: justify;
+            color: #ddd;
+        }
+
+        .features-list {
+            margin-top: 20px;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+
+        .feature-item span {
+            margin-right: 12px;
+            font-size: 1.2rem;
+        }
+
+        .guide-box {
+            background: var(--bg-alerta);
+            color: #333;
+            border-radius: 20px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(255,255,255,0.05);
+            border: 1px solid #ffcccc;
+        }
+
+        .guide-box h2 {
+            margin-top: 0;
+            color: var(--warning);
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .guide-intro {
+            font-size: 0.9rem;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .os-section {
+            margin-bottom: 25px;
+        }
+
+        .os-title {
+            display: block;
+            font-weight: 800;
+            font-size: 0.95rem;
+            border-bottom: 2px solid #ffccd0;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            color: #000;
+        }
+
+        .step {
+            margin-bottom: 12px;
+            font-size: 0.88rem;
+            line-height: 1.4;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .step:before {
+            content: "•";
+            margin-right: 8px;
+            color: var(--warning);
+            font-weight: bold;
+        }
+
+        .btn-install {
+            display: block;
+            background: linear-gradient(135deg, var(--primary), #d35400);
+            color: white;
+            text-align: center;
+            padding: 22px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1.2rem;
+            margin-top: 40px;
+            box-shadow: 0 8px 25px rgba(242, 147, 37, 0.4);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #777;
+            margin-top: 40px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <img src="assets/icone_leao_biblia_app.png" alt="Leão">
+        <h1>Plano Bienal de Leitura Bíblica & Devocional</h1>
+    </div>
+
+    <div class="container">
+        
+        <div class="main-card">
+            Família, com o intuito de contribuir para o crescimento espiritual e intelectual de todos, desenvolvi um aplicativo e o apresento a vocês nesta mensagem. Esse projeto tem como objetivo gerar um compromisso diário pelos próximos dois anos, no qual, juntos, vamos ler o nosso manual de fé: a Bíblia.
+            
+            <div class="features-list">
+                <div class="feature-item"><span>🏆</span> <div><b>Ranking da Família:</b> Acompanhe o progresso de todos em tempo real.</div></div>
+                <div class="feature-item"><span>🎧</span> <div><b>Bíblia em Áudio:</b> Ative o áudio e ouça a Palavra enquanto faz suas tarefas.</div></div>
+                <div class="feature-item"><span>📖</span> <div><b>Leitor de Elite:</b> Escolha sua versão favorita (NVI, ACF ou KJA) e ajuste o tamanho da letra ou leia em meio físico e marque seu progresso no App.</div></div>
+                <div class="feature-item"><span>💡</span> <div><b>Comparativo:</b> Toque em qualquer versículo para comparar versões na mesma tela.</div></div>
+                <div class="feature-item"><span>📱</span> <div><b>Modo Offline:</b> Uma vez instalado, funciona sem internet!</div></div>
+            </div>
+        </div>
+
+        <div class="guide-box">
+            <h2>🛠 GUIA RÁPIDO DE INSTALAÇÃO (IMPORTANTE!)</h2>
+            <div class="guide-intro">
+                Para que o App funcione 100% e fique offline, ele precisa ser instalado corretamente. Esse App você o instala direto pelo navegador de forma simples!!!
+            </div>
+            
+            <div class="os-section">
+                <span class="os-title">1. Se você usa ANDROID (Samsung, Motorola, Xiaomi):</span>
+                <div class="step">Se abrir direto no Chrome: Vai aparecer um aviso no topo escrito "Deseja Instalar o Aplicativo". É só clicar em instalar!</div>
+                <div class="step">Se abrir "preso" no WhatsApp: Toque nos 3 pontinhos lá no topo direito e escolha "Abrir no Chrome". Depois, dentro do Chrome, toque nos 3 pontinhos de novo e vá em "Instalar Aplicativo" ou "Adicionar à tela inicial".</div>
+            </div>
+
+            <div class="os-section">
+                <span class="os-title">2. Se você usa iPHONE (iOS):</span>
+                <div class="step"><b>IMPORTANTE:</b> O iPhone só permite instalar pelo SAFARI.</div>
+                <div class="step">Se abrir "preso" no WhatsApp: Toque no ícone de Bússola ou Navegador (canto inferior direito) para pular para o Safari.</div>
+                <div class="step">No Safari: Toque no botão de Compartilhar (o quadradinho com uma seta para cima no meio da tela) e procure a opção "Adicionar à Tela de Início".</div>
+            </div>
+        </div>
+
+        <a href="https://plano-biblico-e-devocional.vercel.app/" class="btn-install">
+            INSTALAR APLICATIVO AGORA
+        </a>
+
+        <footer>
+            Criado e Desenvolvido por <b>Sidiny Junior</b><br>
+            Copyright Ⓒ 2026 - Todos os Direitos Reservados
+        </footer>
+    </div>
+
+</body>
+</html>
